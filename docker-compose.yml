@@ -2,6 +2,7 @@ version: '3.1'
 
 services:
   server:
+    restart: always
     build:
       context: .
       dockerfile: docker/Dockerfile
@@ -9,10 +10,11 @@ services:
     ports:
       - 8080:80
     volumes:
-      - .:/var/www/docker-lamp-php-5
+      - ./chamilo-lms:/var/www/html
       - ./logs/apache2:/var/log/apache2
 
   db:
+    restart: always
     image: mysql:5.5
     container_name: mysql
     environment:

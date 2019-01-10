@@ -1,0 +1,63 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 09 23:38:22.585294 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.5.38 configured -- resuming normal operations
+[Wed Jan 09 23:38:22.585404 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jan 09 23:41:21.874352 2019] [autoindex:error] [pid 9] [client 172.19.0.1:35136] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Jan 09 23:42:04.422845 2019] [autoindex:error] [pid 10] [client 172.19.0.1:35140] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Jan 09 23:42:19.824329 2019] [autoindex:error] [pid 11] [client 172.19.0.1:35144] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Jan 09 23:43:11.315123 2019] [autoindex:error] [pid 13] [client 172.19.0.1:35148] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Jan 09 23:43:17.301431 2019] [:error] [pid 12] [client 172.19.0.1:35152] script '/var/www/html/index.php' not found or unable to stat
+[Wed Jan 09 23:47:49.221668 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 09 23:48:16.953890 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.5.38 configured -- resuming normal operations
+[Wed Jan 09 23:48:16.954085 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jan 09 23:48:49.741302 2019] [:error] [pid 7] [client 172.19.0.1:60086] script '/var/www/html/index.php' not found or unable to stat
+[Wed Jan 09 23:48:53.066345 2019] [autoindex:error] [pid 7] [client 172.19.0.1:60086] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Jan 09 23:49:06.024933 2019] [autoindex:error] [pid 8] [client 172.19.0.1:60110] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Jan 09 23:50:18.006076 2019] [autoindex:error] [pid 9] [client 172.19.0.1:60114] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Jan 09 23:50:33.665820 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 09 23:50:51.132728 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.5.38 configured -- resuming normal operations
+[Wed Jan 09 23:50:51.132879 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Jan 10 00:30:44.081779 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Jan 10 00:52:39.071281 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.5.38 configured -- resuming normal operations
+[Thu Jan 10 00:52:39.071762 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Jan 10 00:52:43.473652 2019] [core:alert] [pid 8] [client 172.19.0.1:35358] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:52:44.527984 2019] [core:alert] [pid 10] [client 172.19.0.1:35362] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:52:44.827128 2019] [core:alert] [pid 9] [client 172.19.0.1:35366] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:52:45.042866 2019] [core:alert] [pid 12] [client 172.19.0.1:35370] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:52:45.236671 2019] [core:alert] [pid 11] [client 172.19.0.1:35374] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:52:57.430539 2019] [core:alert] [pid 8] [client 172.19.0.1:35378] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:53:56.907422 2019] [core:alert] [pid 10] [client 172.19.0.1:35384] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:53:57.778136 2019] [core:alert] [pid 9] [client 172.19.0.1:35388] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:53:57.975213 2019] [core:alert] [pid 12] [client 172.19.0.1:35392] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:53:58.155544 2019] [core:alert] [pid 11] [client 172.19.0.1:35396] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:53:58.330861 2019] [core:alert] [pid 8] [client 172.19.0.1:35400] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:53:58.492195 2019] [core:alert] [pid 10] [client 172.19.0.1:35404] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:53:58.656943 2019] [core:alert] [pid 9] [client 172.19.0.1:35408] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:54:08.324347 2019] [core:alert] [pid 12] [client 172.19.0.1:35412] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:54:08.684059 2019] [core:alert] [pid 11] [client 172.19.0.1:35416] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:54:09.148406 2019] [core:alert] [pid 8] [client 172.19.0.1:35420] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:54:09.325146 2019] [core:alert] [pid 10] [client 172.19.0.1:35424] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:54:09.927732 2019] [core:alert] [pid 9] [client 172.19.0.1:35428] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:54:10.166895 2019] [core:alert] [pid 12] [client 172.19.0.1:35432] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:54:38.271976 2019] [core:alert] [pid 11] [client 172.19.0.1:35436] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:54:38.767358 2019] [core:alert] [pid 8] [client 172.19.0.1:35440] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:54:48.352512 2019] [core:alert] [pid 10] [client 172.19.0.1:35444] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:54:48.738912 2019] [core:alert] [pid 9] [client 172.19.0.1:35448] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:57:04.599329 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Jan 10 00:57:22.001739 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.5.38 configured -- resuming normal operations
+[Thu Jan 10 00:57:22.001849 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Jan 10 00:57:48.322299 2019] [core:alert] [pid 7] [client 172.19.0.1:60452] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:57:48.965083 2019] [core:alert] [pid 9] [client 172.19.0.1:60456] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:57:49.246515 2019] [core:alert] [pid 8] [client 172.19.0.1:60460] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Jan 10 00:57:59.654606 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Jan 10 01:01:46.329522 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.5.38 configured -- resuming normal operations
+[Thu Jan 10 01:01:46.329694 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Jan 10 03:42:44.058073 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Jan 10 03:50:24.235183 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.5.38 configured -- resuming normal operations
+[Thu Jan 10 03:50:24.235298 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Jan 10 03:53:22.961728 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
